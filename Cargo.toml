@@ -1,0 +1,14 @@
+[package]
+name = "dirtycow"
+version = "0.1.0"
+edition = "2024"
+description = "University lab proof-of-concept for studying CVE-2016-5195, also known as Dirty COW."
+readme = "README.md"
+publish = false
+
+[dependencies]
+libc = "1.0.0-alpha.3"
+
+[[bin]]
+name = "whynot"
+path = "src/whynot.rs"
