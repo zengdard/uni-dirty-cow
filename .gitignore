@@ -1,1 +1,12 @@
+# Rust build outputs
+/target/
+/.cargo-home/
+
+# Local lab images and generated binaries
 *.qcow2
+/uni-dirty-cow
+
+# Editor and OS noise
+.DS_Store
+*.swp
+*.swo
